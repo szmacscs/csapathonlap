@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item text-center">
-                        <a class="nav-link active text" aria-current="page" href="#">Főoldal</a>
+                        <a class="nav-link active text" aria-current="page" href="/">Főoldal</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -21,23 +21,23 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDropdown" style="color:snow">
                             <li><a class="dropdown-item" href="/about">Bemutatkozás</a></li>
-                            <li><a class="dropdown-item" href="#">Kronológia</a></li>
-                            <li><a class="dropdown-item" href="#">Csapatfelépítés</a></li>
-                            <li><a class="dropdown-item" href="#">Vezetőink</a></li>
-                            <li><a class="dropdown-item" href="#">Csatlakozz!</a></li>
+                            <li><a class="dropdown-item" href="/cronolog">Kronológia</a></li>
+                            <li><a class="dropdown-item" href="/organization">Csapatfelépítés</a></li>
+                            <li><a class="dropdown-item" href="/leaders">Vezetőink</a></li>
+                            <li><a class="dropdown-item" href="/join">Csatlakozz!</a></li>
                         </ul>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link text" aria-current="page" href="#">Galéria</a>
+                        <a class="nav-link text" aria-current="page" href="/gallery">Galéria</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Támogatás
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDropdown" style="color:snow">
-                            <li><a class="dropdown-item" href="#">Adó 1%</a></li>
-                            <li><a class="dropdown-item" href="#">Banki átutalás</a></li>
-                            <li><a class="dropdown-item" href="#">Alapítványi adatok</a></li>
+                            <li><a class="dropdown-item" href="/tax">Adó 1%</a></li>
+                            <li><a class="dropdown-item" href="/transfer">Banki átutalás</a></li>
+                            <li><a class="dropdown-item" href="/foundation">Alapítványi adatok</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -45,9 +45,9 @@
                             Kapcsolat
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDropdown" style="color:snow">
-                            <li><a class="dropdown-item" href="#">Táboraink</a></li>
-                            <li><a class="dropdown-item" href="#">Elérhetőségek</a></li>
-                            <li><a class="dropdown-item" href="#">Levelező lista</a></li>
+                            <li><a class="dropdown-item" href="/camps">Táboraink</a></li>
+                            <li><a class="dropdown-item" href="/contacts">Elérhetőségek</a></li>
+                            <li><a class="dropdown-item" href="/list">Levelező lista</a></li>
                         </ul>
                     </li>
                 </ul>
