@@ -1,0 +1,91 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+$primary: #1a1e21;
+
+body{
+  background: #1a1e21;
+  width: 100%;
+  height: 100%;
+}
+
+#header{
+  position: relative;
+  width: 100%;
+  display: none;
+  box-shadow: 0 1px 10px 0.5px #1a1e21;
+  z-index: 999;
+}
+
+.container-fluid {
+  #header-logo{
+    display: flex;
+    width: 300px;
+  }
+
+  #scout-lily-logo {
+    width: 30%;
+  }
+
+  #team-logo {
+   width: 70%;
+  }
+
+  #fb-logo{
+    margin: 10px;
+    width:50px;
+  }
+}
+
+.news-title{
+  color: snow;
+  text-align: center;
+  margin: 20px 0;
+  box-shadow: 0px 20px 20px 0.5px #1a1e21;
+  z-index: 15;
+  position: relative;
+
+}
+
+.news{
+  background-image: url("../../images/SVG/bg.svg");
+  background-size: cover;
+  z-index: 10;
+}
+
+#wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 0;
+  z-index: -1; /* <-- this plays a key roll for it to work */
+  width: 100% !important; /* <-- this plays a key roll for it to work */
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+.btn-details{
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color:snow;
+  background:#009f5b ;
+  //background-image: linear-gradient(to right, #ddff94, #009f5b,#009a47);
+}
+.btn-details:hover{
+  color:#1a1e21;
+}
+
+#about-container{
+  background-image: url("../../images/SVG/bg-about.svg");
+  background-size: cover;
+  z-index: 10;
+  height: 600px;
+  color:snow;
+
+
+}
