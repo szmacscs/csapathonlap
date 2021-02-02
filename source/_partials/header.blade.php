@@ -13,48 +13,54 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item text-center">
-                        <a class="nav-link active text" aria-current="page" href="/">Főoldal</a>
+                        <a class="nav-link text" aria-current="page" href="/"><b>Főoldal</b></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Magunkról
+                    <li class="nav-item dropdown text-center">
+                        <a class="nav-link text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <b>
+                                Magunkról
+                            </b>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDropdown" style="color:snow">
-                            <li><a class="dropdown-item" href="/about">Bemutatkozás</a></li>
-                            <li><a class="dropdown-item" href="/cronolog">Kronológia</a></li>
-                            <li><a class="dropdown-item" href="/organization">Csapatfelépítés</a></li>
-                            <li><a class="dropdown-item" href="/leaders">Vezetőink</a></li>
-                            <li><a class="dropdown-item" href="/join">Csatlakozz!</a></li>
+                            <li><a class="dropdown-item text-center" href="/about">Bemutatkozás</a></li>
+                            <li><a class="dropdown-item text-center" href="/cronolog">Kronológia</a></li>
+                            <li><a class="dropdown-item text-center" href="/organization">Csapatfelépítés</a></li>
+                            <li><a class="dropdown-item text-center" href="/leaders">Vezetőink</a></li>
+                            <li><a class="dropdown-item text-center" href="/join">Csatlakozz!</a></li>
                         </ul>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link text" aria-current="page" href="/gallery">Galéria</a>
+                        <a class="nav-link text" aria-current="page" href="/gallery"><b>Galéria</b></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Támogatás
+                    <li class="nav-item dropdown text-center">
+                        <a class="nav-link text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <b>
+                                Támogatás
+                            </b>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDropdown" style="color:snow">
-                            <li><a class="dropdown-item" href="/tax">Adó 1%</a></li>
-                            <li><a class="dropdown-item" href="/transfer">Banki átutalás</a></li>
-                            <li><a class="dropdown-item" href="/foundation">Alapítványi adatok</a></li>
+                            <li><a class="dropdown-item text-center" href="/tax">Adó 1%</a></li>
+                            <li><a class="dropdown-item text-center" href="/transfer">Banki átutalás</a></li>
+                            <li><a class="dropdown-item text-center" href="/foundation">Alapítványi adatok</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Kapcsolat
+                    <li class="nav-item dropdown text-center">
+                        <a class="nav-link text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <b>
+                                Kapcsolat
+                            </b>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDropdown" style="color:snow">
-                            <li><a class="dropdown-item" href="/camps">Táboraink</a></li>
-                            <li><a class="dropdown-item" href="/contacts">Elérhetőségek</a></li>
-                            <li><a class="dropdown-item" href="/list">Levelező lista</a></li>
+                            <li><a class="dropdown-item text-center" href="/camps">Táboraink</a></li>
+                            <li><a class="dropdown-item text-center" href="/contacts">Elérhetőségek</a></li>
+                            <li><a class="dropdown-item text-center" href="/list">Levelező lista</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div style="width: 300px; display: flex;">
+        <div id="right-logo">
             <div id="fb-logo" ></div>
             <a  id="fb-logo" href="https://cserkesz.hu"><img src="../assets/images/facebook-logo-black-white-vector.svg" ></a>
             <a  id="fb-logo" href="https://cserkesz.hu"><img src="../assets/images/instagram-logo-black-white-vector.svg" ></a>

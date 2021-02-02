@@ -6,6 +6,14 @@ return [
     'title' => 'Jigsaw',
     'description' => 'Website description.',
     'collections' => [
-        'news'
+        'news' => [
+
+        ],
+        'albums' => [
+
+        ],
+        'leaders' => [
+
+        ]
     ],
 ];

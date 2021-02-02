@@ -19012,66 +19012,8 @@ __webpack_require__.r(__webpack_exports__);
 
 window.jQuery = jquery__WEBPACK_IMPORTED_MODULE_1___default.a;
 window.$ = jquery__WEBPACK_IMPORTED_MODULE_1___default.a;
-var prevScrollpos = window.pageYOffset;
-
-window.onscroll = function () {
-  var currentScrollPos = window.pageYOffset;
-
-  if (0 < currentScrollPos) {
-    var element = document.getElementById("header");
-    jquery__WEBPACK_IMPORTED_MODULE_1___default()(element).fadeIn("slow");
-    document.getElementById("header").style.display = "block";
-    document.getElementById("header").style.position = "fixed";
-
-    if (currentScrollPos > prevScrollpos) {
-      document.getElementById("card-container").style.position = "relative";
-      var cards = Array.prototype.slice.call(document.querySelectorAll('#card-news'));
-
-      for (var i = 0; i < cards.length; i++) {
-        console.log(-750 + window.innerHeight / window.innerWidth * window.pageYOffset * 2); //console.log(cards[i].offsetTop)
-
-        if (window.innerHeight > 1200) {
-          if (window.innerHeight / window.innerWidth * window.pageYOffset / 5 < 300) {
-            cards[i].style.opacity = window.innerHeight / window.innerWidth * window.pageYOffset / 5;
-            cards[i].style.left = -(window.innerWidth / 2) + window.innerHeight / window.innerWidth * window.pageYOffset * 2 + "px";
-          } else {
-            cards[i].style.opacity = window.innerHeight / window.innerWidth * window.pageYOffset / 5;
-            cards[i].style.left = 300 + "px";
-          }
-        } else if (window.innerHeight > 800) {
-          if (window.innerHeight / window.innerWidth * window.pageYOffset / 5 < 300) {
-            cards[i].style.opacity = window.innerHeight / window.innerWidth * window.pageYOffset / 5;
-            cards[i].style.left = -(window.innerWidth / 1.6) + window.innerHeight / window.innerWidth * window.pageYOffset * 2 + "px";
-          } else {
-            cards[i].style.opacity = window.innerHeight / window.innerWidth * window.pageYOffset / 5;
-            cards[i].style.left = 300 + "px";
-          }
-        } else {
-          if (window.innerHeight / window.innerWidth * window.pageYOffset / 5 < 150) {
-            cards[i].style.opacity = window.innerHeight / window.innerWidth * window.pageYOffset / 5;
-            cards[i].style.left = -(window.innerWidth / 0.65) + window.innerHeight / window.innerWidth * window.pageYOffset * 2 + "px";
-          } else {
-            cards[i].style.opacity = window.innerHeight / window.innerWidth * window.pageYOffset / 5;
-            cards[i].style.left = 150 + "px";
-          }
-        }
-      }
-    }
-  } else {
-    var element = document.getElementById("header");
-
-    if (true === jquery__WEBPACK_IMPORTED_MODULE_1___default()(element).fadeOut("slow")) {
-      document.getElementById("header").style.display = "none";
-    }
-  }
-
-  prevScrollpos = currentScrollPos;
-};
-
 jquery__WEBPACK_IMPORTED_MODULE_1___default()(function () {
-  window.sr = ScrollReveal({
-    reset: true
-  });
+  window.sr = ScrollReveal();
 
   if (jquery__WEBPACK_IMPORTED_MODULE_1___default()(window).width() < 768) {
     if (jquery__WEBPACK_IMPORTED_MODULE_1___default()('.timeline-content').hasClass('js--fadeInLeft')) {
@@ -19080,20 +19022,20 @@ jquery__WEBPACK_IMPORTED_MODULE_1___default()(function () {
 
     sr.reveal('.js--fadeInRight', {
       origin: 'right',
-      distance: '300px',
+      distance: '200px',
       easing: 'ease-in-out',
       duration: 800
     });
   } else {
     sr.reveal('.js--fadeInLeft', {
       origin: 'left',
-      distance: '300px',
+      distance: '200px',
       easing: 'ease-in-out',
       duration: 800
     });
     sr.reveal('.js--fadeInRight', {
       origin: 'right',
-      distance: '300px',
+      distance: '200px',
       easing: 'ease-in-out',
       duration: 800
     });
@@ -19101,13 +19043,18 @@ jquery__WEBPACK_IMPORTED_MODULE_1___default()(function () {
 
   sr.reveal('.js--fadeInLeft', {
     origin: 'left',
-    distance: '300px',
+    distance: '200px',
     easing: 'ease-in-out',
     duration: 800
   });
   sr.reveal('.js--fadeInRight', {
     origin: 'right',
-    distance: '300px',
+    distance: '200px',
+    easing: 'ease-in-out',
+    duration: 800
+  });
+  sr.reveal('.gradient-box', {
+    origin: 'left',
     easing: 'ease-in-out',
     duration: 800
   });

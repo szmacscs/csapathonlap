@@ -7,4 +7,8 @@
             document.write(date)
         </script>
     </p>
+    <div id="footer-logo">
+        <a  id="fb-logo-footer" href="https://cserkesz.hu"><img src="../assets/images/facebook-logo-black-white-vector.svg" ></a>
+        <a  id="fb-logo-footer" href="https://cserkesz.hu"><img src="../assets/images/instagram-logo-black-white-vector.svg" ></a>
+    </div>
 </footer>

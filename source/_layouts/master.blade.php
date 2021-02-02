@@ -9,6 +9,8 @@
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
         <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
     </head>
